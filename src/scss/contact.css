@@ -1,0 +1,120 @@
+.contact-carousel{
+    height: 400px;
+    background-image: url(../img/byDGI7.jpg);
+    background-position: center center;
+}
+.contact-info img{
+    height: 100%;
+    width: 100%;
+}
+.contact-info__detail{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(37, 36, 36);
+    padding: 20px;
+}
+.contact-info__detail h4{
+    color: #ff4f81;
+}
+.contact-input input{
+    height: 48px;
+}
+.contact-input textarea{
+    width: 100%;
+    height: 70%;
+}
+.contact-input button{
+    width: 100%;
+    height: 17%;
+    padding: 8px;
+}
+.contact-section .contact__line{
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    margin: auto;
+}
+.contact-info h3{
+    font-size: 1.4em;
+    color: white;
+    letter-spacing: 1px;
+}
+.contact-info__detail div i{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #dddddd;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.contact-info__detail h4{
+    font-size: 16px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+}
+
+.contact-social .contact-fb{
+    color: blue;
+    border: none;
+}.contact-social .contact-twitter{
+    color: rgb(79, 79, 231);
+    border: none;
+}
+.contact-social .contact-lin{
+    color: blue;
+    border: none;
+}.contact-social .contact-insta{
+    color: orangered;
+    border: none;
+}
+.contact-social i{  
+    background-color: white;
+    padding: 8px 10px;   
+    transition: all 0.5s;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.contact-social .contact-fb:hover{
+    color: white;
+    background-color: blue;
+}
+.contact-social .contact-twitter:hover{
+    color: white;
+    background-color: rgb(79, 79, 231);
+}
+.contact-social .contact-lin:hover{
+    color: white;
+    background-color: blue;
+}
+.contact-social .contact-insta:hover{
+    color: white;
+    background-color: orangered;
+    background-image: url("");
+}
+/*MAP SECTION*/
+.contact-map{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(219, 213, 213);
+    margin-top: 15px;
+}
+.contact-map iframe{
+    width: 100%;
+    height: 400px;
+}
+@media screen and (max-width:767px){
+    .contact-section h1{
+        font-size: 22px;
+    }
+    
+    .contact-input button {
+        margin-top: -15px;
+        height: 43%;
+    }
+    .contact-map{
+            margin-top: 52px;
+    }
+}
+
+

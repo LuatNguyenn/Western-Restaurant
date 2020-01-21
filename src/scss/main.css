@@ -1,0 +1,581 @@
+header {
+    background-color: #ff4f81;
+    color: white;
+}
+
+.header-left i {
+    margin-right: 4px;
+}
+
+.header-right i {
+    margin-left: 2px;
+    font-size: 21px;
+    padding: 8px 10px;
+    /*need to have border because the size will be added when hovering without border*/
+    /*transparent */
+    border: 1px solid transparent;
+    transition: all 0.7s;
+}
+
+.header-right i:hover {
+    color: white;
+    border: 1px solid white;
+    background-color: #ff4f81;
+}
+
+.navbar-brand--logo p {
+    color: #ff4f81;
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: bold;
+    color: #282828;
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ff4f81;
+    border-bottom: 2px solid #ff4f81;
+
+}
+
+.navbar-nav--menu {
+    margin-top: -19px;
+}
+
+/*using @media to have responsive on Mobile,Computer,...  */
+@media screen and (min-width:576px) and (max-width:768px) {
+    .navbar-brand--logo h1 {
+        font-size: 30px;
+    }
+
+    .navbar-brand--logo p {
+        font-size: 13px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 12px;
+    }
+
+    .navbar-nav--menu .nav-item {
+        margin-left: -4px;
+    }
+
+}
+
+/*Carousel customize*/
+.img-fluid--custom {
+    height: 600px;
+    width: 100%;
+}
+
+/*Caption custom*/
+.carousel-caption--custom {
+    bottom: 194px;
+}
+
+.carousel-caption--custom h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+.carousel-caption--custom p {
+    font-size: 1em;
+    letter-spacing: 2px;
+    line-height: 1.8em;
+}
+
+/*Custom button*/
+.btn-read--custom {
+    border-radius: unset;
+    transition: all 0.5s;
+}
+
+.btn-read--custom:hover {
+    background-color: #ff4f81;
+    color: white;
+}
+
+/*Custom modal*/
+.modal-text--custom p {
+    max-width: 0;
+    padding-top: 18px;
+}
+
+.modal-header--custom {
+    color: #ff4f81;
+}
+
+/*welcome section*/
+.welcome h1 {
+    font-size: 37px;
+}
+
+.welcome .text-center--custom {
+        font-size: 20px;
+        color:black ;
+        line-height: 1.8em;
+        padding: 2px 15px;
+        letter-spacing: 3px;
+        font-weight: normal;
+}
+
+/**food item section**/
+.food-item i {
+    font-size: 30px;
+}
+
+.food-item h2 {
+    font-size: 2rem;
+}
+
+.food-item h3 {
+    font-size: 0.5rem;
+}
+
+.food-item p {
+    font-size: 1.3rem;
+}
+
+.welcome .text-center--welcome {
+    font-size: 11px;
+    color: #999;
+    line-height: 1.5em;
+    padding: 0px 6px;
+}
+
+/*custom indicators*/
+.carousel-indicators--custom {
+    bottom:80%;
+}
+
+/*Responsive for photo and caption*/
+@media screen and (min-width:414px) and (max-width:575px) {
+    .carousel-caption--custom h1 {
+        font-size: 2.0em;
+        font-weight: normal;
+    }
+
+    .carousel-caption--custom p {
+        font-size: 0.7em;
+        line-height: 1.7em;
+    }
+
+    .img-fluid--custom {
+        height: 400px;
+
+    }
+
+    .carousel-caption--custom {
+        bottom: 13%;
+    }
+
+    .btn-read--custom {
+        font-size: 0.5em;
+        padding: 0.2rem 0.5rem;
+    }
+
+    .carousel-indicators--custom {
+        bottom: 30%;
+    }
+
+    /*welcome section*/
+    .welcome h1 {
+        font-size: 24px;
+    }
+
+    .welcome .text-center--custom {
+        letter-spacing: 2px;
+
+    }
+
+    .welcome .text-center--welcome {
+        font-size: 12px;
+        color: #999;
+        line-height: 1.5em;
+        padding: 0px 6px;
+    }
+
+    /**food item section**/
+    .food-item i {
+        font-size: 30px;
+    }
+
+    .food-item h2 {
+        font-size: 1.5rem;
+    }
+
+    .food-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .food-item p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .carousel-caption--custom h1 {
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+
+    .carousel-caption--custom p {
+        font-size: 0.8rem;
+        letter-spacing: 1.5px;
+        line-height: 1.3em;
+    }
+
+    .img-fluid--custom {
+        height: 300px;
+
+    }
+
+    .carousel-caption--custom {
+        bottom: 13%;
+    }
+
+    .btn-read--custom {
+        font-size: 0.5em;
+        padding: 0 0.5rem;
+    }
+
+    .carousel-indicators--custom {
+        bottom: 30%;
+    }
+
+    /*welcome section*/
+    .welcome h1 {
+        font-size: 21px;
+    }
+
+    .welcome .text-center--custom {
+        letter-spacing: 2px;
+        font-size: 11px;
+    }
+
+    .welcome .text-center--welcome {
+        font-size: 12px;
+        color: #999;
+        line-height: 1.5em;
+        padding: 0px 6px;
+    }
+
+    /**food item section**/
+    .food-item i {
+        font-size: 27px;
+    }
+
+    .food-item h2 {
+        font-size: 1.2rem;
+    }
+
+    .food-item h3,
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:414px) {
+    .carousel-caption--custom h1 {
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+
+    .carousel-caption--custom p {
+        font-size: 0.8rem;
+        letter-spacing: 1.5px;
+        line-height: 1.3em;
+    }
+
+    .img-fluid--custom {
+        height: 300px;
+
+    }
+
+    .carousel-caption--custom {
+        bottom: 13%;
+    }
+
+    .btn-read--custom {
+        font-size: 0.5em;
+        padding: 0 0.5rem;
+    }
+
+    .carousel-indicators--custom {
+        bottom: 30%;
+    }
+
+    /*welcome section*/
+    .welcome h1 {
+        font-size: 21px;
+    }
+
+    .welcome .text-center--custom {
+        letter-spacing: 2px;
+        font-size: 11px;
+    }
+
+    .welcome .text-center--welcome {
+        font-size: 12px;
+        color: #999;
+        line-height: 1.2em;
+        padding: 0px 6px;
+    }
+
+    /**food item section**/
+    .food-item i {
+        font-size: 27px;
+    }
+
+    .food-item h2 {
+        font-size: 1.2rem;
+    }
+
+    .food-item h3,
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+.text-center--custom {
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.welcome__line {
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    margin: auto;
+}
+
+.welcome .text-center--welcome {
+    font-size: 17px;
+    color: #999;
+    line-height: 1.8em;
+    padding: 2px 51px;
+}
+
+.welcome-section {
+    padding: 20px 15px;
+}
+
+.food-item i {
+    font-size: 32px;
+}
+
+.food-item h2 {
+    color: #ff4f81;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.food-item h3 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/*OUR_START SECTION*/
+.star-section{
+    min-height: 400px;
+    background-image: url(../img/photo-1478328787372-03e95eca7ebc.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 4rem 15px;
+    margin: 20px 0;
+}
+.star-title h1{
+    font-size: 37px;
+    color: #ff4f81;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.star-title p{
+    font-size: 20px;
+    color:white;
+    line-height: 1.8em;
+    padding: 2px 15px;
+    letter-spacing: 3px;
+}
+.start__line{
+    height: 2px;
+    width: 70px;
+    background-color: rgb(250, 241, 241);
+    margin: auto;
+}
+.ourstar-info i{
+    color: white;
+    font-size: 50px;
+}
+.ourstar-info p{
+    margin-top: 15px;
+    color: white;
+    font-size: 30px;
+}
+
+/*OFFER SECTION*/
+.offer__line{
+    height: 2px;
+    width: 70px;
+    background-color: rgb(10, 2, 2);
+    margin: auto;
+}
+.offer-section p{
+        font-size: 20px;
+        color:black ;
+        line-height: 1.8em;
+        padding: 2px 15px;
+        letter-spacing: 3px;
+}
+.offer-item i{
+    color: #dc3545;
+    font-size: 50px;
+    margin: 20px 0px;
+}
+.offer-item{
+    box-shadow:0px 0px 4px 2px #aaa;
+    -webkit-box-shadow:0px 0px 4px 2px #aaa;
+    -moz-box-shadow:0px 0px 4px 2px #aaa;
+    -o-box-shadow:0px 0px 4px 2px #aaa;
+    padding: 2rem 1rem;
+    margin-bottom: 30px;
+}
+.offer-item h2{
+    font-size: 20px;
+    color: black;
+}
+.offer-item p{
+    font-size: 14px;
+    color: #6b6b6b;
+}
+.offer-item:hover{
+    background-color: #ff4f81;
+    color: white;   
+    transition: all 1s;
+    cursor: pointer;
+}
+
+/*TESTNIMONIAL SECTION*/
+.testimonial-section{
+    padding: 3rem 15px;
+    min-height: 400px;
+    background-image: url(../img/photo-1548625149-d629f7136bb3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.testimonial-title__line{
+    height: 2px;
+    width: 70px;
+    background-color: white;
+    margin: auto;
+}
+.testimonial-title p{
+    font-size: 20px;
+    color:white ;
+    line-height: 1.8em;
+    padding: 2px 15px;
+    letter-spacing: 3px;
+}
+.testimonial-slider{
+    padding: 30px;
+    /*do trong suot*/
+    background-color: rgba(0, 0, 0,0.47);
+    /*0px 0px (top-bottom) 
+    2px (blur) 
+    1px: width of the shadow*/
+    -webkit-box-shadow: 0px 0px 2px 1px #8e8e8e;
+    -moz-box-shadow: 0px 0px 2px 1px #8e8e8e;
+    -o-box-shadow: 0px 0px 2px 1px #8e8e8e;
+    box-shadow: 0px 0px 2px 1px #8e8e8e;
+}
+.item__box{
+    background-color: rgba(0, 0, 0,0.57);
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    position: relative;
+}
+/* make arrow */
+.item__box::after{
+    content: '';
+    border-top: 9px solid rgba(0, 0, 0,0.57);
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    position: absolute;
+    bottom: -9px;
+    left: 27%;
+}
+.item__user{
+    margin-left: 27%;
+    color: white;
+}
+.owl-carousel .item__user img{
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin-right: 10px;
+}
+.item__user p{
+    margin-bottom: 0px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.item__user span{
+    color: #ff4f81;
+    font-size: 0.8em;
+}
+/*NEWS AND EVENT TITLE*/
+.event-title__line{
+    height: 2px;
+    width: 70px;
+    background-color: black;
+    margin: auto;
+}
+.event-title p{
+    font-size: 20px;
+    color:black ;
+    line-height: 1.8em;
+    padding: 2px 15px;
+    letter-spacing: 3px;
+}
+.event-content p{
+    width: 88%;
+}
+
+/*FOOTER*/
+footer{
+    margin-top: 0px;
+    background-color: rgb(51, 45, 45);
+    width: 100%;
+}
+.top-footer h3{
+    color: #ff4f81;
+}
+.event-symbol i{
+    color: #ff4f81;
+}
+.contact-symbol{
+   padding: 6px;
+   border: 1px solid white;   
+   color: white;
+}
+.top-footer p{
+    color: white;
+}
+.bottom-footer{
+    width: 100%;
+    background-color: #282828;
+    margin-top: 40px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.contact-symbol:hover{
+    color: #dc3545;
+    border: 1px solid #dc3545;
+}
